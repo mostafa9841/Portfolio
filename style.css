@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+*{margin: 0;
+padding: 0;}
+/* start header */
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+position: relative;
+}
+.head .logo h1 { list-style: none;
+    font-family: 'Baloo Paaji';
+    font-size: 25px;
+    text-decoration: none
+}
+.head .logo h1 a {
+    color: white;
+    width: 50px;
+    font-size: 37px;
+    text-decoration: none
+}
+.head .navbar ul { display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.head .navbar ul li {margin: 0 10px;
+    font-family: 'Baloo Paaji';
+    font-weight: 600;
+font-size: 37px;}
+    .head .navbar ul li a {
+        font-family: 'Rubik';
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        margin: 0 10px;
+        margin-left: 5px;
+    }
+    /* end header */
+    /* Start Content */
+    .content { display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+position: relative;}
+.content .background {
+    position: absolute;
+        width: 100%;
+        z-index: -1;
+    }
+    .content .About {
+        justify-content: center;
+        align-items: center;
+        font-family: 'Baloo Paaji', cursive;
+        margin-top: 200px;
+        margin-right: 500px;
+        text-decoration: none;
+        list-style: none;
+        margin-left: 500px;
+        margin-bottom: 300px;
+    }
+    .content .web{ 
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #695aa6;
+        border-color: #695aa6;
+    }
+    
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #594c8d;
+        border-color: #544885;
+    }
+    
+    .btn-primary:focus, .btn-primary.focus {
+        box-shadow: 0 0 0 0.2rem rgba(128, 115, 179, 0.5);
+    }
+    
+    .btn-primary.disabled, .btn-primary:disabled {
+        color: #fff;
+        background-color: #695aa6;
+        border-color: #695aa6;
+    }
+    
+    .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+    .show > .btn-primary.dropdown-toggle {
+        color: #fff;
+        background-color: #544885;
+        border-color: #4f437d;
+    }
+    
+    .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-primary.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0.2rem rgba(128, 115, 179, 0.5);
+    }
+    /* End Content */
+    .contact {margin-top: 50px;}
+    .product {position:relative ;
+        margin-top: 500px;
+        display: flex;
+align-items: center;
+color: blue;    
+}
+.product .who {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    opacity: .8;
+font-weight: 600;}
+.team {margin-top: 350px;
+    align-items: center;
+display: flex;
+position: relative;
+justify-content: center;
+}
+.team .word { position: absolute;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.cards .card .first {background-color: red;}
+.cards .card .second{ background-color: black;}
